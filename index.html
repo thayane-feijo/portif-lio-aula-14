@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio - Senac</title>
+    <title>Portifolio - Thayane</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,10 +29,9 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" 
-                 href="#sobre">Sobre</a>
+                <a class="nav-link" href="#sobre">Sobre</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="Habilidade">Habilidades</a>
@@ -51,20 +50,146 @@
       <!-- Header com particlas -->
       <header>
         <div id="particles-js"></div>
-        <div>
+        <div class="container bg-container" >
             <h1 class="display-3 fw-bold">Olá, eu sou Thayane</h1>
             <p class="lead mb-4">Lorem ipsum dolor sit amet</p>
             <a href="#projetos" class="btn btn-gradient btn-lg">Ver meus Projetos</a>
         </div>
       </header>
 
+      <!-- Sobre -->
+       <section id="sobre" class="bg-gradient-purple" data-aos="fade-right">
+        <div class="container">
+          <div class="row aligm-items-center text-center text-md-start">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <img src="https://placehold.co/400x400/png" alt="Foto do Perfil"
+                class="img-fluid rounded-circle shadow-lg">
+            </div>
+            <div class="col-md-6">
+            <h2 class="mb-3">Sobre Mim</h2>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil similique,
+               Libero officia quas labore suscipit aperiam aut veritatis inventore soluta 
+               liste ex perferendis cum rem. A eius autem facere provident?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sunt voluptas cum? Aliquid quia, numquam, 
+              officiis odit soluta voluptates libero nihil hic cumque temporibus ut expedita aspernatur aut, ullam alias. 
+          </p>
+            </div>
+            </div>
+            </div>
+          </selection>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <section id="habilidades" class="bg-gradient-pink" data-aos="fade-left">
+          <div class="container">
+              <h2 class="text-center mb-5">habilidades</h2>
+              <div class="row g-4 text-center">
+
+                <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+                  <div class="card h-100 card-hover shadow-sm border-0 bg-success text-white">
+                      <div class="card-body">
+                      <h5 class="card-title">Node.js</h5>
+                      <p class="card-text">
+                        Back-end eficiente em APIs REST e integraçoes com banco de dados.
+                        html e css
+                      </h5>
+                      <p class="card-text">
+                        Criação de layout responsivo para web
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+                  <div class="card h-100 card-hover shadow-sm border-0 bg-success text-white">
+                      <div class="card-body">
+                      <h5 class="card-title">Node.js</h5>
+                      <p class="card-text">
+                        Back-end eficiente em APIs REST e integraçoes com banco de dados.
+                        html e css
+                      </h5>
+                      <p class="card-text">
+                        Criação de layout responsivo para web
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+                  <div class="card h-100 card-hover shadow-sm border-0 bg-success text-white">
+                      <div class="card-body">
+                      <h5 class="card-title">Node.js</h5>
+                      <p class="card-text">
+                        Back-end eficiente em APIs REST e integraçoes com banco de dados.
+                        html e css
+                      </h5>
+                      <p class="card-text">
+                        Criação de layout responsivo para web
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            
+
+
+
+                <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="card h-100 card-hover shadow-sm border-0 bg-primary-custom">
+                      <div class="card-body">
+                      <h5 class="card-title">
+                        html e css
+                      </h5>
+                      <p class="card-text">
+                        Criação de layout responsivo para web
+                      </p>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+              
+        </section>
+          
+      
+
+
+              
+
+          
+
+         
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-
+     
     <script>
-            AOS.init({duraction: 1000, once: true})
-    </script>
+        AOS.init({duraction: 1000, once: true})
+
+        particlesJS("particles-js", {
+          particles: {
+            number: {value: 80},
+            color: {value: ["#ff7676", "#F54ea2" , "#6A11CB" , "#2575FC"]},
+            shape: {type: "triangulo"},
+            opacity: {value: 0.7} ,
+            size: {value: 3},
+            move: {
+              enable: true,
+              speed: 2,
+              direction: "none"
+            },
+          },
+            interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: "repulse"
+              }
+            }
+          }
+          });
+      </script>
+
 </body>
 </html>

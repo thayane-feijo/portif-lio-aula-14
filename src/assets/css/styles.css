@@ -32,12 +32,19 @@ header{
 }
 
 .btn-gradient{
-    baclagroud: linear-gradient(135deg, #ff7676, #f44ea2);
+    background: linear-gradient(135deg, #ff7676, #f44ea2);
     border: none;
     color:#fff;
     transition: all 0.3s;
 
     &:hover{
-       opacity: 0,85; 
+       opacity: 0.85; 
     }
 }
+
+
+
+  section{
+      padding: 80px;
+}
+
