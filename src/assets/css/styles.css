@@ -2,7 +2,7 @@
 header{
     position: relative;
     min-height: 100vh;
-    color: #fff;
+    color: #9370DB;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ header{
 }
 
 .btn-gradient{
-    background: linear-gradient(135deg, #ff7676, #f44ea2);
+    background: linear-gradient(135deg, #191970, #191970);
     border: none;
     color:#fff;
     transition: all 0.3s;
@@ -50,7 +50,7 @@ header{
 }
 
 .bg-gradient-pink{
-    background: linear-gradient(135deg, #f54ea2, #ff7676);
+    background: linear-gradient(135deg, #191970, #191970);
     color: #fff;
 
 }
@@ -79,4 +79,9 @@ footer{
 .bg-gradient-purple{
     background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: #fff;
+}
+
+.bg-card-4
+{
+    background: linear-gradient(120deg, #191970);
 }
