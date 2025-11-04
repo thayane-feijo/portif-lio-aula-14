@@ -2,7 +2,7 @@
 header{
     position: relative;
     min-height: 100vh;
-    color: #9370DB;
+    color: #4B0082;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -84,4 +84,8 @@ footer{
 .bg-card-4
 {
     background: linear-gradient(120deg, #191970);
+}
+
+.bg-nav-custon{
+    background: linear-gradient(#6a11cb);
 }
